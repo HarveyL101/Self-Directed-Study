@@ -1,0 +1,1 @@
+This will contain a directory of written resources, possibly serving as revision of the more theoretical aspects of embedded engineering.
