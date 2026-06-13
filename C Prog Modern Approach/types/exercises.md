@@ -74,3 +74,38 @@ Illegal, this does not specify the type of number to be stored (e.g. unsigned lo
 * D. `printf(c);`
 > Illegal, this statement causes a compiler error due to `c` not being called as an argument in the valid format for `printf()` (E.g. `printf("%c", c);` would be valid)
 
+### Question 5: Which one of the following is not a legal way to write the number 65? (Assume that the character set is ASCII.)
+* A. 'A'
+> Legal, the ASCII code for `'A'` is 65.
+
+* B. 0b1000001
+> Legal, 1000001 in binary can be represented as:
+
+$$
+64 + 1 == 65
+$$
+
+* C. 0101
+> Illegal, the octal 0101 can be represented as:
+
+$$
+\begin{aligned}
+    0101 &== 1 + (0 * 8) + (1 * 16) \\
+         &== 1 + 0 + 16 \\
+         &== 17
+\end{aligned}
+$$
+
+> Which is not equal to 65.
+
+* D. 0x41
+> Legal, the hexadecimal 0x41 can be represented as:
+
+$$
+\begin{aligned}
+    0x41 &== 1 + (4 * 16) 
+         &== 1 + 64
+         &== 65
+\end{aligned}
+$$
+
