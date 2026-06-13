@@ -5,11 +5,11 @@ A series of exercise questions from Chapter 7.
 ### Question 1: Give the decimal value of each of the following integer constants.
 * A. 077
 
-$
-\begin{center}
-077 == 7 + (7 * 8) == 64
-\end{center}
-$
+$$
+\\begin{center}
+    077 == 7 + (7 * 8) == 64
+\\end{center}
+$$
 
 * B. 0x77
 $0x77 == 7 + (7 * 16) == 7 + 112 == 119$
