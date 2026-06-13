@@ -6,9 +6,7 @@ A series of exercise questions from Chapter 7.
 * A. 077
 
 $$
-\\begin{center}
     077 == 7 + (7 * 8) == 64
-\\end{center}
 $$
 
 * B. 0x77
