@@ -1,0 +1,1 @@
+This chapter's program examples were intentionally left incomplete due to the fact that I have experienced near identical situations in multiple other languages and therefore do not feel the need to create mini projects such as a grade calculator using a `switch` statement.
