@@ -49,7 +49,28 @@ $$
 > Floating-point, this number evaluates to 0.03978 in standard notation.
 
 ### Question 3: Which of the following are not legal types in C?
-* A.
-* B.
-* C.
-* D.
+* A. short unsigned int
+> Legal, the ordering of short/ unsigned is irrelevant during declaration.
+
+* B. short float
+> Illegal, short's only apply to integer data types, with float being the smallest of its kind (float -> double -> long double).
+
+* C. long double
+> Legal, a long double is the largest of the floating-point types.
+
+* D. unsigned long
+Illegal, this does not specify the type of number to be stored (e.g. unsigned long *int* would be valid).
+
+### Question 4: If `c` is a variable of type `char`, which one of the following statements are illegal?
+* A. `i += c;`
+> Legal, `i` would be incremented by the integer value of `c`'s ASCII character (E.g. if `c == 'a'` then it would be `i += 97`).
+
+* B. `c = 2 * c - 1;`
+> Legal, again the character would just be altered to now equal the ASCII char equivalent to `2 * c - 1`.
+
+* C. `putchar(c);`
+> Legal, this simply prints the value stored in `c` to stdout.
+
+* D. `printf(c);`
+> Illegal, this statement causes a compiler error due to `c` not being called as an argument in the valid format for `printf()` (E.g. `printf("%c", c);` would be valid)
+
