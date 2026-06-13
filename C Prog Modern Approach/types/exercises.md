@@ -1,4 +1,6 @@
-# C Data Types Exercises 
+<p align="center">
+# C Data Types Exercises
+</p>
 A series of exercise questions from Chapter 7.
 
 
@@ -109,3 +111,44 @@ $$
 \end{aligned}
 $$
 
+### Question 6: For each of the following items of data, specify which one of the types `char`, `short`, `int` or `long` is the smallest one guaranteed to be large enough to store the item.
+* A. Days in a month.
+> `short int`
+
+* B. Days in a year.
+> `short int`
+
+* C. Minutes in a day.
+> `short int`
+
+* D. Seconds in a day.
+> `int`
+
+### Question 7: For each of the following character escapes, give the equivalent octal escape. (Assume that the character set is ASCII.)
+* A. `\b` (backspace)
+> `010` is backspace in octal. 
+
+* B. `\n` (new line)
+> `012` is new line feed in octal.
+
+* C. `\r` (carriage return)
+> `015` is carriage return in octal.
+
+* D. `\t` (horizontal tab)
+> `011` is horizontal tab in octal.
+
+### Question 8: Repeat Exercise 7 but in hexadecimal instead.
+* A. hex backspace
+> `8`
+
+* B. hex new line
+> `A`
+
+* C. hex carriage return
+> `D`
+
+* D. hex horizontal tab
+> `9`
+
+### Question 9: Suppose that `i` and `j` are variables of type `int`. What is the type of the expression `i / j + 'a'`?
+> 
