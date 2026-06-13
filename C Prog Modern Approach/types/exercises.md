@@ -6,23 +6,30 @@ A series of exercise questions from Chapter 7.
 * A. 077
 
 $$
-    077 == 7 + (7 * 8) == 64
+\begin{aligned}
+    077 &== 7 + (7 * 8) \\
+        &== 64
+\end{aligned}
 $$
 
 * B. 0x78
 
 $$
-    0x77 == 7 + (7 * 16) 
-         == 7 + 112 
-         == 119
+\begin{aligned}
+    0x77 &== 7 + (7 * 16) 
+         &== 7 + 112 
+         &== 119
+\end{aligned}
 $$
 
 * C. 0XABC
 
 $$
-    0XABC == 12 + (11 * 16) + (10 * 32)
-          == 12 + 176 + 320
-          == 508
+\begin{aligned}
+    0XABC &== 12 + (11 * 16) + (10 * 32)
+          &== 12 + 176 + 320
+          &== 508
+\end{aligned}
 $$
 
 ### Question 2: Which of the following are not legal constants in C? Classify each legal constant as either integer or floating-point.
