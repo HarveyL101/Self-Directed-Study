@@ -1,6 +1,5 @@
-<p align="center">
-# C Data Types Exercises
-</p>
+<h1 align="center">C Data Types Exercises</h1>
+
 A series of exercise questions from Chapter 7.
 
 
