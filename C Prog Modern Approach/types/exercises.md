@@ -4,11 +4,13 @@ A series of exercise questions from Chapter 7.
 
 ### Question 1: Give the decimal value of each of the following integer constants.
 * A. 077
+
 $$
     077 == 7 + (7 * 8) == 64
 $$
 
 * B. 0x78
+
 $$
     0x77 == 7 + (7 * 16) 
          == 7 + 112 
@@ -16,6 +18,7 @@ $$
 $$
 
 * C. 0XABC
+
 $$
     0XABC == 12 + (11 * 16) + (10 * 32)
           == 12 + 176 + 320
