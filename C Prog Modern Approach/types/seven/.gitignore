@@ -1,0 +1,4 @@
+# Excluding object files (.o) and executables (.exe) from the repo.
+*.exe
+src/*.o
+
