@@ -1,0 +1,4 @@
+# catchall attempt at preventing .exe's or object files from slipping into the repo.
+**/*.exe
+**/*.o
+
