@@ -4,7 +4,7 @@ This repo serves as a grouped storage space for resources and projects used to f
 
 ## Books
 
-C Programming: A Modern Approach [link](https://archive.org/details/c-programming-a-modern-approach-2nd-ed-c-89-c-99-king-by/mode/2up):
+[C Programming: A Modern Approach](https://archive.org/details/c-programming-a-modern-approach-2nd-ed-c-89-c-99-king-by/mode/2up):
 * This has been used extensively to familiarise myself with the C language, reading and following the given problems within the book to program and solidify understanding of the content.
 
 ## Online Resources
