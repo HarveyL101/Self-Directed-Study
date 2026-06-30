@@ -1,0 +1,1 @@
+This chapter will remain incomplete due to the similarity with other programming language introductions. Having used if, else and switch statements in multiple other languages before I believe time can be better allocated towards more unfamiliar aspects of the language (E.g. array handling and pointers).
